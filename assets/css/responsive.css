@@ -60,17 +60,9 @@ Start Footer Coding
 .footer-box{
     width: 100%;
     line-height: 35px;
+    padding: 0px;
 }
 
-.footer-box button{
-    width: 40%;
-}
-
-
-.footer-box-quick-links{
-    width: 100%;
-    margin: 0px auto;
-}
     /*--------------------------------------------------------------
 End Footer Coding    
 --------------------------------------------------------------*/
