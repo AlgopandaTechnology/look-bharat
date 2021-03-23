@@ -16,13 +16,13 @@ Start Header Coding
     text-align: left;
 }
 
-.top-logo h2 {
+.top-logo h2 ,.copyright h2{
     color: #FF7EE3;
     font-weight: bold;
     font-size: 40px;
 }
 
-.top-logo h2 span {
+.top-logo h2 span,.copyright h2 span {
     color: #63E89E;
     font-weight: bold;
 }
@@ -140,13 +140,13 @@ End Header Coding
 Start Footer Coding    
 --------------------------------------------------------------*/
 .footer-wrapper {
-    background: #63E89E;
+    background: #000000;
 }
 
 .footer {
     display: flex;
     flex-wrap: wrap;
-    color: #ffffff;
+    color: #63E89E;
     width: 100%;
 }
 
@@ -168,20 +168,25 @@ Start Footer Coding
 }
 
 .footer-box li a {
-    color: #ffffff;
+    color: #63E89E;
 }
 
 .footer-box li a:hover {
-    color: #000000;
+    color: #FF7EE3;
 }
 
+.footer-box h2{
+    /*color: #63E89E;*/
+    color: #FF7EE3;
+}
 
 .copyright {
     text-align: center;
     align-content: center;
     justify-content: center;
     margin: 0px auto;
-
+    padding: 10px;
+    width: 100%;
 }
 
 .footer hr {
