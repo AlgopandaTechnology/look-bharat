@@ -162,9 +162,8 @@ Start Footer Coding
      padding-left:0px;
 }
 
-
 .footer-box li {
-    display: block;
+    display: block;  
 }
 
 .footer-box li a {
