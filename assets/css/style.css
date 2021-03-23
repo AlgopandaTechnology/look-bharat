@@ -1,23 +1,36 @@
 /*--------------------------------------------------------------
 Start Header Coding
 --------------------------------------------------------------*/
+.header-wrapper .container{
+    padding-top: 5px;
+}
 
 .top-header {
     display: flex;
     flex-wrap: wrap;
-    background: white;
 }
 
 .top-logo {
     width: 20%;
-    display: flex;
+    text-align: left;
+}
+
+.top-logo h2 {
+    color: #FF7EE3;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.top-logo h2 span {
+    color: #63E89E;
+    font-weight: bold;
 }
 
 .hamburger {
     width: 1%;
     padding-left: 8%;
     font-size: 35px;
-    color: #2C974B;
+    color: #63E89E;
     display: none;
     margin-top: 10px;
 }
@@ -30,7 +43,7 @@ Start Header Coding
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-    background: #2C974B;
+    background: #63E89E;
     border-radius: 3px;
 }
 
@@ -40,7 +53,6 @@ Start Header Coding
     width: 32px;
     height: 32px;
     position: relative;
-    margin-left: 10%:;
 
 }
 
@@ -51,7 +63,7 @@ Start Header Coding
     content: ' ';
     height: 33px;
     width: 2px;
-    background-color: #2C974B;
+    background-color: #63E89E;
     padding-left: 8%;
     margin: 5px 0px 0px 19px;
 }
@@ -66,33 +78,56 @@ Start Header Coding
 
 .main-menu {
     width: 60%;
-    text-align: center;
-
+    text-align: right;
 }
 
 
 .main-menu .nav a {
-    padding: 10px;
     display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
 }
 
 .active {
-    color: #2C974B;
+    color: #63E89E;
     font-weight: bold;
-    border-bottom: 1px solid #2C974B;
-    border-width: 3px;
-
 }
 
 .main-menu .nav a:hover {
-    border-bottom: 1px solid #2C974B;
-    border-width: 3px;
-    color: #2C974B;
-    font-weight: bold;
+    color: #63E89E;
     transition: 0.2s;
 }
 
+.list-your-business{
+    padding-top: 2px;
+    width: 20%;
+    text-align: right;
+}
+.list-your-business button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: white;
+    border: 2px solid #63E89E;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 #63E89E;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
 
+.list-your-business button a {
+    color: #ffffff;
+}
+
+.list-your-business button:hover {
+    box-shadow: inset 0 0 0 0 #63E89E;
+}
+.list-your-business button:hover a {
+    color: #FF7EE3;
+}
 
 /*--------------------------------------------------------------
 End Header Coding    
@@ -104,7 +139,7 @@ End Header Coding
 Start Footer Coding    
 --------------------------------------------------------------*/
 .footer-wrapper {
-    background: #2C974B;
+    background: #63E89E;
 }
 
 .footer {
@@ -157,7 +192,7 @@ Start Footer Coding
     border: none;
     background: #ffffff;
     box-shadow: none;
-    color: #2C974B;
+    color: #63E89E;
 }
 
 .copyright {

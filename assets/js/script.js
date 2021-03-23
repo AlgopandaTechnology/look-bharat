@@ -66,7 +66,7 @@ $( ".hamburger" ).click(function() {
 $( ".main-menu" ).slideToggle( "slow", function() {
 $( ".hamburger" ).hide();
 $( ".cross" ).show();
-$( ".book-appointment" ).show();
+$( ".list-your-business" ).show();
 
 });
 });
@@ -74,7 +74,7 @@ $( ".book-appointment" ).show();
 $( ".cross" ).click(function() {
 $( ".main-menu" ).slideToggle( "slow", function() {
 $( ".cross" ).hide();
-$( ".book-appointment" ).hide();
+$( ".list-your-business" ).hide();
 $( ".hamburger" ).show();
 });
 });
