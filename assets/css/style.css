@@ -3,6 +3,7 @@ Start Header Coding
 --------------------------------------------------------------*/
 .header-wrapper .container{
     padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .top-header {
