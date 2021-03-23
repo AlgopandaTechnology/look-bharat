@@ -1,0 +1,133 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+    font-family: 'Noto Serif', serif;
+  
+}
+
+body,div,input,textarea{
+	 box-sizing: border-box;
+}
+.container{
+	width: 85%;
+	margin: 0px auto;
+	padding: 30px 0px 30px 0px;
+}
+
+
+
+h1{
+
+}
+
+
+
+h2{
+
+}
+
+h3{
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-size: 16px;
+}
+
+p{
+
+}
+
+ul{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+	display: inline-block;
+	padding: 0;
+    margin: 0;
+}
+
+a{
+ color: #2C974B;
+ text-decoration: none;
+}
+
+a:hover{
+  color: black;
+}
+
+.black{
+	color:#000000;
+}
+
+.white{
+	color:#ffffff;
+}
+
+.title{
+	text-align: center;
+	color: #2C974B;
+	margin-bottom: 25px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.padding-all{
+	padding: 25px 0px 25px 0px;
+}
+
+
+.row{
+	width: 100%;
+	display: flex;
+}
+
+.col{
+	width: 50%;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+h1{
+	font-size: 20px;
+}
+
+h2{
+	font-size: 15px;
+}
+
+
+h3{
+	font-size: 12px;
+}
+
+h4{
+	font-size: 10px;
+
+}
+
+
+.col{
+	width: 100%;
+
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+}

@@ -1,0 +1,79 @@
+@media screen and (max-width: 600px) {
+
+    /*--------------------------------------------------------------
+Start Header Coding
+--------------------------------------------------------------*/
+
+    .top-logo {
+        width: 80%;
+    }
+
+    .hamburger {
+        width: 10%;
+        text-align: right;
+        float: right;
+        display: block;
+    }
+
+    .hamburger span {
+        display: block;
+    }
+
+    .cross span {
+        display: block;
+    }
+
+    .active {
+        border-bottom: none;
+        border-left: 1px solid #2C974B;
+    }
+
+    .main-menu .nav a:hover {
+        border-bottom: none;
+        border-left: 1px solid #2C974B;
+    }
+
+    .main-menu {
+        width: 100%;
+        display: none;
+    }
+
+    .main-menu .nav li {
+        display: block;
+    }
+
+    .book-appointment {
+        width: 50%;
+        text-align: left;
+        display: none;
+        transition: 0.8s;
+    }
+
+    /*--------------------------------------------------------------
+End Header Coding    
+--------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------
+Start Footer Coding
+--------------------------------------------------------------*/
+.footer-box{
+    width: 100%;
+    line-height: 35px;
+}
+
+.footer-box button{
+    width: 40%;
+}
+
+
+.footer-box-quick-links{
+    width: 100%;
+    margin: 0px auto;
+}
+    /*--------------------------------------------------------------
+End Footer Coding    
+--------------------------------------------------------------*/
+
+
+}

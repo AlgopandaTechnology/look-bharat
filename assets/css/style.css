@@ -1,0 +1,180 @@
+/*--------------------------------------------------------------
+Start Header Coding
+--------------------------------------------------------------*/
+
+.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.top-logo {
+    width: 20%;
+    display: flex;
+}
+
+.hamburger {
+    width: 1%;
+    padding-left: 8%;
+    font-size: 35px;
+    color: #2C974B;
+    display: none;
+    margin-top: 10px;
+}
+
+
+
+.hamburger span {
+    display: none;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #2C974B;
+    border-radius: 3px;
+}
+
+
+.cross {
+    display: none;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    margin-left: 10%:;
+
+}
+
+.cross:before,
+.cross:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #2C974B;
+    padding-left: 8%;
+    margin: 5px 0px 0px 19px;
+}
+
+.cross:before {
+    transform: rotate(45deg);
+}
+
+.cross:after {
+    transform: rotate(-45deg);
+}
+
+.main-menu {
+    width: 60%;
+    text-align: center;
+
+}
+
+
+.main-menu .nav a {
+    padding: 10px;
+    display: flex;
+}
+
+.active {
+    color: #2C974B;
+    font-weight: bold;
+    border-bottom: 1px solid #2C974B;
+    border-width: 3px;
+
+}
+
+.main-menu .nav a:hover {
+    border-bottom: 1px solid #2C974B;
+    border-width: 3px;
+    color: #2C974B;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+
+
+/*--------------------------------------------------------------
+End Header Coding    
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+Start Footer Coding    
+--------------------------------------------------------------*/
+.footer-wrapper {
+    background: #2C974B;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+
+}
+
+.footer-box {
+    width: 33.33%;
+    font-weight: normal;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-box-quick-links {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.footer-box li {
+    display: block;
+}
+
+.footer-box li a {
+    color: #ffffff;
+}
+
+.footer-box li a:hover {
+    color: #000000;
+}
+
+.footer-box input {
+    width: 60%;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+.footer-box button {
+    width: 30%;
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    border: none;
+    background: #ffffff;
+    box-shadow: none;
+    color: #2C974B;
+}
+
+.copyright {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 0px auto;
+
+}
+
+.footer hr {
+    width: 100%;
+}
+
+
+/*--------------------------------------------------------------
+End Footer Coding    
+--------------------------------------------------------------*/
+
+}
