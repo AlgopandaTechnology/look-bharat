@@ -106,12 +106,12 @@ Start Header Coding
 }
 .list-your-business button{
     height: 40px;
-    width: 100%;
+    width: 80%;
     border: none;
     outline: none;
     background: white;
     border: 2px solid #63E89E;
-    border-radius: 10px;
+    border-radius: 100px;
     cursor: pointer;
     box-shadow: inset 400px 0 0 0 #63E89E;
     -webkit-transition: ease-out 0.4s;
@@ -195,6 +195,62 @@ Start Footer Coding
 
 /*--------------------------------------------------------------
 End Footer Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start About Coding    
+--------------------------------------------------------------*/
+
+.about-wrapper {
+    background-image: url('about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about-wrapper .about-main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-wrapper .about-main .about-left {
+    width: 70%;
+    height: 400px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.about-wrapper .about-main .about-left .about-content {
+    /*background: rgba(255, 255, 255, 0.8);*/
+    padding: 50px;
+    margin: 80px auto;
+    line-height: 70px;
+}
+
+.about-content h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 50px;
+      text-shadow: 2px 2px #000000;
+}
+
+.about-content hr{
+    width: 20%;
+    height: 2px;
+    background: #63E89E;
+}
+
+.about-content input{
+    width: 100%;
+    height: 43px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+/*--------------------------------------------------------------
+End About Coding    
 --------------------------------------------------------------*/
 
 }

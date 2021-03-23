@@ -68,4 +68,30 @@ End Footer Coding
 --------------------------------------------------------------*/
 
 
+    /*--------------------------------------------------------------
+Start About Coding    
+--------------------------------------------------------------*/
+
+    .about-wrapper .about-main .about-left,
+    .about-wrapper .about-main .about-right {
+        width: 100%;
+
+    }
+
+    .about-wrapper .about-main .about-left {
+        margin-bottom: 25px;
+    }
+
+    .about-wrapper .about-main .about-left{
+        height: auto;
+    }
+.about-content h1{
+    font-size: 21px;
+}
+
+    /*--------------------------------------------------------------
+End About Coding    
+--------------------------------------------------------------*/
+
+
 }
