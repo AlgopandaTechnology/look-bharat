@@ -227,6 +227,7 @@ Start Discover Coding
     padding: 50px;
     margin: 80px auto;
     line-height: 70px;
+    width: 100%;
 }
 
 .discover-content h1{
@@ -271,7 +272,7 @@ Start popular-category Coding
 --------------------------------------------------------------*/
 
 .popular-category-wrapper{
-   
+   background: #dddddd;
 }
 
 .popular-category-main{
@@ -279,6 +280,43 @@ Start popular-category Coding
     flex-wrap: wrap;
 }
 
+.popular-category-items-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    padding:10px;
+    background: #ffffff;
+    margin:0px 0px 12px 12px; 
+    position: relative;
+    font-size: 20px; 
+}
+
+.popular-category-items-box p{
+    display: flex;
+    align-items: center;
+}
+
+.popular-category-items-box p:nth-child(3){
+    position: absolute;
+    right: 0;
+    color: #FF7EE3;
+    padding: 8px;
+}
+
+.popular-category-items-box:nth-child(1){
+     margin:0px 0px 12px 0px;
+}
+
+.popular-category-items-box span{
+    background: #63E89E;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.popular-category-items-box i{
+
+}
 
 /*--------------------------------------------------------------
 End popular-category Coding    

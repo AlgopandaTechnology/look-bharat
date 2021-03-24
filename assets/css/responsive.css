@@ -72,18 +72,17 @@ End Footer Coding
 Start discover Coding    
 --------------------------------------------------------------*/
 
-    .discover-wrapper .discover-main .discover-box,
-    .discover-wrapper .discover-main .about-right {
+    .discover-wrapper .discover-main .discover-box {
         width: 100%;
     }
 
     .discover-wrapper .discover-main .discover-box {
         margin-bottom: 25px;
+        height: auto;
+        width: 100%;
     }
 
-    .discover-wrapper .discover-main .discover-box{
-        height: auto;
-    }
+
 .discover-content h1{
     font-size: 21px;
 }
@@ -96,7 +95,10 @@ End discover Coding
 Start popular-category Coding    
 --------------------------------------------------------------*/
 
-
+.popular-category-items-box{
+    width: 100%;
+    margin:0px 0px 12px 0px;
+}
 
 
 /*--------------------------------------------------------------
