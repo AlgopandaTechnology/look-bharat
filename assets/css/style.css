@@ -104,30 +104,9 @@ Start Header Coding
     width: 20%;
     text-align: right;
 }
+
 .list-your-business button{
-    height: 40px;
     width: 80%;
-    border: none;
-    outline: none;
-    background: white;
-    border: 2px solid #63E89E;
-    border-radius: 100px;
-    cursor: pointer;
-    box-shadow: inset 400px 0 0 0 #63E89E;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-}
-
-.list-your-business button a {
-    color: #ffffff;
-}
-
-.list-your-business button:hover {
-    box-shadow: inset 0 0 0 0 #63E89E;
-}
-.list-your-business button:hover a {
-    color: #FF7EE3;
 }
 
 /*--------------------------------------------------------------
@@ -192,6 +171,24 @@ Start Footer Coding
     width: 100%;
 }
 
+.scrollToTop{
+    padding:5px 10px 5px 10px; 
+    text-align:center; 
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF7EE3;
+    position:fixed;
+    bottom:75px;
+    right:40px;
+    display:none;
+    border-radius: 50%;
+    border:3px solid #FF7EE3; 
+}
+.scrollToTop:hover{
+    text-decoration:none;
+    background: none;
+    border:3px solid #63E89E; 
+}
 
 /*--------------------------------------------------------------
 End Footer Coding    
@@ -272,7 +269,7 @@ Start popular-category Coding
 --------------------------------------------------------------*/
 
 .popular-category-wrapper{
-   background: #dddddd;
+   /*background: #dddddd;*/
 }
 
 .popular-category-main{
@@ -288,7 +285,8 @@ Start popular-category Coding
     background: #ffffff;
     margin:0px 0px 12px 12px; 
     position: relative;
-    font-size: 20px; 
+/*    font-size: 20px; */
+    box-shadow: 0 5px 10px 0 rgb(144 146 136 / 20%);
 }
 
 .popular-category-items-box p{
@@ -318,7 +316,31 @@ Start popular-category Coding
 
 }
 
+.browse-all-categories{
+    padding-top: 2%;
+    width: 20%;
+    text-align: center;
+    margin:0 auto;
+}
 /*--------------------------------------------------------------
 End popular-category Coding    
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+Start directory-category Coding    
+--------------------------------------------------------------*/
+
+.directory-category-wrapper{
+    background: #dddddd;
+}
+
+.directory-category-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*--------------------------------------------------------------
+End directory-category Coding    
 --------------------------------------------------------------*/
 
