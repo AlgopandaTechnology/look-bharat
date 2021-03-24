@@ -249,6 +249,19 @@ Start About Coding
     border: none;
     outline: none;
 }
+
+.search-box{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.search-box span{
+    position: absolute;
+    right: 16px;
+    top: 12px;
+    font-size: 18px;
+}
 /*--------------------------------------------------------------
 End About Coding    
 --------------------------------------------------------------*/
