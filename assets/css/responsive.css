@@ -72,20 +72,20 @@ End Footer Coding
 Start About Coding    
 --------------------------------------------------------------*/
 
-    .about-wrapper .about-main .about-left,
-    .about-wrapper .about-main .about-right {
+    .discover-wrapper .discover-main .discover-box,
+    .discover-wrapper .discover-main .about-right {
         width: 100%;
 
     }
 
-    .about-wrapper .about-main .about-left {
+    .discover-wrapper .discover-main .discover-box {
         margin-bottom: 25px;
     }
 
-    .about-wrapper .about-main .about-left{
+    .discover-wrapper .discover-main .discover-box{
         height: auto;
     }
-.about-content h1{
+.discover-content h1{
     font-size: 21px;
 }
 

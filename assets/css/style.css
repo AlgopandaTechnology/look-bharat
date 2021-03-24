@@ -202,47 +202,47 @@ End Footer Coding
 Start About Coding    
 --------------------------------------------------------------*/
 
-.about-wrapper {
+.discover-wrapper {
     background-image: url('about.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.about-wrapper .about-main {
+.discover-wrapper .discover-main {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.about-wrapper .about-main .about-left {
+.discover-wrapper .discover-main .discover-box {
     width: 70%;
     height: 400px;
     margin: 0px auto;
     text-align: center;
 }
 
-.about-wrapper .about-main .about-left .about-content {
+.discover-wrapper .discover-main .discover-box .discover-content {
     /*background: rgba(255, 255, 255, 0.8);*/
     padding: 50px;
     margin: 80px auto;
     line-height: 70px;
 }
 
-.about-content h1{
+.discover-content h1{
     color: #ffffff;
     font-weight: bold;
     font-size: 50px;
       text-shadow: 2px 2px #000000;
 }
 
-.about-content hr{
+.discover-content hr{
     width: 20%;
     height: 2px;
     background: #63E89E;
 }
 
-.about-content input{
+.discover-content input{
     width: 100%;
     height: 43px;
     border-radius: 100px;
