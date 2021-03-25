@@ -25,12 +25,10 @@ Start Header Coding
 
     .active {
         border-bottom: none;
-        border-left: 1px solid #2C974B;
     }
 
     .main-menu .nav a:hover {
         border-bottom: none;
-        border-left: 1px solid #2C974B;
     }
 
     .main-menu {
@@ -67,6 +65,10 @@ Start Footer Coding
     padding: 0px;
 }
 
+
+.scrollToTop{
+    right:20px;
+}
     /*--------------------------------------------------------------
 End Footer Coding    
 --------------------------------------------------------------*/
@@ -91,10 +93,6 @@ Start discover Coding
     font-size: 21px;
 }
 
-
-.scrollToTop{
-        right:20px;
-}
 
     /*--------------------------------------------------------------
 End discover Coding    
@@ -122,6 +120,19 @@ End popular-category Coding
 /*--------------------------------------------------------------
 Start directory-category Coding    
 --------------------------------------------------------------*/
+
+.directory-tab a{
+    line-height: 50px;
+}
+
+.directory-box{
+    width: 100%;
+    margin:0px 0px 50px 0px;
+}
+.directory-box:nth-child(1){
+    margin-left:0px;
+}
+
 
 /*--------------------------------------------------------------
 End directory-category Coding    

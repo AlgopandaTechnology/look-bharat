@@ -83,7 +83,7 @@ Start Header Coding
 }
 
 
-.main-menu .nav a {
+.main-menu .nav a{
     display: flex;
     flex-wrap: wrap;
     padding: 16px;
@@ -338,7 +338,55 @@ Start directory-category Coding
     flex-wrap: wrap;
 }
 
-/*--------------------------------------------------------------
+.directory-tab{
+    margin:0px auto;
+    margin-bottom: 30px;
+}
+
+.directory-tab a{
+    background: #63E89E;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+.directory-tab .active{
+    background: #FF7EE3;
+}
+
+.directory-box{
+    width: 25%;
+    margin:0px 0px 2% 2%;
+    padding-bottom: 20px;
+    position: relative;
+    height: 300px;
+    border-radius: 10px; 
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+}
+.directory-box:nth-child(1){
+    margin-left:0px;
+}
+
+.directory-box .img-box{
+    height: 150px;
+}
+
+.directory-icon{
+ position: absolute;
+ left: 32%;
+ top: 40%;
+}
+
+.directory-box-title{
+ position: absolute;
+ top:65%;
+  left:18%;
+}
+
+/*
+-----------------------------------------------------------
 End directory-category Coding    
 --------------------------------------------------------------*/
 
