@@ -17,7 +17,7 @@ Start Header Coding
 }
 
 .top-logo h2 ,.copyright h2{
-    color: #FF7EE3;
+    color: #00ACEE;
     font-weight: bold;
     font-size: 40px;
 }
@@ -150,12 +150,12 @@ Start Footer Coding
 }
 
 .footer-box li a:hover {
-    color: #FF7EE3;
+    color: #00ACEE;
 }
 
 .footer-box h2{
     /*color: #63E89E;*/
-    color: #FF7EE3;
+    color: #00ACEE;
 }
 
 .copyright {
@@ -176,13 +176,13 @@ Start Footer Coding
     text-align:center; 
     font-size: 25px;
     font-weight: bold;
-    color: #FF7EE3;
+    color: #00ACEE;
     position:fixed;
     bottom:75px;
     right:40px;
     display:none;
     border-radius: 50%;
-    border:3px solid #FF7EE3; 
+    border:3px solid #00ACEE; 
 }
 .scrollToTop:hover{
     border:3px solid #63E89E; 
@@ -244,12 +244,14 @@ Start Discover Coding
     border-radius: 100px;
     border: none;
     outline: none;
+    text-align: center;
 }
 
 .search-box{
     display: flex;
     width: 100%;
     position: relative;
+
 }
 
 .search-box span{
@@ -295,7 +297,7 @@ Start popular-category Coding
 .popular-category-items-box p:nth-child(3){
     position: absolute;
     right: 0;
-    color: #FF7EE3;
+    color: #00ACEE;
     padding: 8px;
 }
 
@@ -351,19 +353,15 @@ Start directory-category Coding
 }
 
 .directory-tab .active{
-    background: #FF7EE3;
+    background: #00ACEE;
 }
 
 .directory-box{
     width: 25%;
     margin:0px 0px 2% 2%;
     padding-bottom: 20px;
-    position: relative;
-    height: 300px;
     border-radius: 10px; 
     background: #ffffff;
-    text-align: center;
-    align-items: center;
 }
 .directory-box:nth-child(1){
     margin-left:0px;
@@ -373,16 +371,13 @@ Start directory-category Coding
     height: 150px;
 }
 
-.directory-icon{
- position: absolute;
- left: 32%;
- top: 40%;
-}
 
-.directory-box-title{
- position: absolute;
- top:65%;
-  left:18%;
+.directory-add{
+    margin:0px auto;
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    margin-top: -10%;
 }
 
 /*
@@ -390,3 +385,89 @@ Start directory-category Coding
 End directory-category Coding    
 --------------------------------------------------------------*/
 
+
+/*###############
+ Category page
+###############*/
+
+
+/*-------------------------------------------------------------
+Start category-header-wrapper Coding    
+--------------------------------------------------------------*/
+.category-search{
+    width: 40%;
+}
+
+.category-filter{
+    width: 60%;
+    text-align: right;
+}
+
+.category-filter ul li{
+      border-right:1px solid red;
+}
+
+.category-filter ul li:last-child{
+    border-right:none;
+}
+
+.category-filter a{
+    margin-left: 10px;
+    padding-right: 10px;
+
+}
+
+.category-search input{
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    color: #00ACEE;
+}
+
+.category-search span{
+    color: #63E89E;
+}
+
+
+/*-------------------------------------------------------------
+End category-header-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start category-subheader-wrapper Coding    
+--------------------------------------------------------------*/
+.category-subheader-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.category-subheader-section{
+    padding: 1%;
+}
+
+.category-subheader-section:nth-child(1){
+    background: red;
+    width: 5%;
+}
+.category-subheader-section:nth-child(2){
+    background: blue;
+    width: 5%;
+}
+.category-subheader-section:nth-child(3){
+    background: black;
+    width: 20%;
+}
+.category-subheader-section:nth-child(4){
+    background: green;
+    width: 50%;
+}
+
+.category-subheader-section:nth-child(5){
+    background: pink;
+    width: 20%;
+}
+
+/*-------------------------------------------------------------
+End category-subheader-wrapper Coding    
+--------------------------------------------------------------*/
