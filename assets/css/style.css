@@ -443,11 +443,12 @@ Start category-subheader-wrapper Coding
 }
 
 .category-subheader-section{
-    padding: 1%;
+    padding: 10px;
 }
 
 .category-subheader-section:nth-child(1){
-    background: red;
+    display: flex;
+    flex-wrap: wrap;
     width: 5%;
 }
 .category-subheader-section:nth-child(2){
