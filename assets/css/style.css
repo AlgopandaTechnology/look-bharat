@@ -394,6 +394,7 @@ End directory-category Coding
 /*-------------------------------------------------------------
 Start category-header-wrapper Coding    
 --------------------------------------------------------------*/
+
 .category-search{
     width: 40%;
 }
@@ -436,6 +437,10 @@ End category-header-wrapper Coding
 /*-------------------------------------------------------------
 Start category-subheader-wrapper Coding    
 --------------------------------------------------------------*/
+.category-subheader-wrapper{
+    background: #eeeeee;
+}
+
 .category-subheader-main{
     display: flex;
     flex-wrap: wrap;
@@ -443,32 +448,75 @@ Start category-subheader-wrapper Coding
 }
 
 .category-subheader-section{
-    padding: 10px;
+    padding: 10px ;
+    background: #ffffff;
 }
 
 .category-subheader-section:nth-child(1){
-    display: flex;
-    flex-wrap: wrap;
-    width: 5%;
+    width: 10%;
 }
 .category-subheader-section:nth-child(2){
-    background: blue;
-    width: 5%;
+    width: 10%;
 }
 .category-subheader-section:nth-child(3){
-    background: black;
     width: 20%;
 }
 .category-subheader-section:nth-child(4){
-    background: green;
-    width: 50%;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    width: 40%;
 }
 
 .category-subheader-section:nth-child(5){
-    background: pink;
     width: 20%;
 }
 
 /*-------------------------------------------------------------
 End category-subheader-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------
+Start listing-section-wrapper Coding    
+--------------------------------------------------------------*/
+.listing-section-wrapper{
+    background: #eeeeee;
+}
+
+.listing-section-main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.listing-section-left{
+    width: 34%;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.listing-section-right{
+    margin-left: 1%;
+    width: 65%;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.cont-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-box .img-cont{
+    width: 30%;
+}
+
+.cont-box .details-cont{
+    width: 70%;
+    padding-left: 2%;
+}
+
+/*-------------------------------------------------------------
+End listing-section-wrapper Coding    
 --------------------------------------------------------------*/
