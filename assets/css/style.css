@@ -491,22 +491,27 @@ Start listing-section-wrapper Coding
 
 .listing-section-left{
     width: 34%;
-    padding: 10px;
+    padding: 5px 5px 0px 5px;
     background: #ffffff;
 }
 
 .listing-section-right{
     margin-left: 1%;
     width: 65%;
-    padding: 10px;
-    background: #ffffff;
+    padding-left: 10px;
+
 }
 
 .cont-box{
     width: 100%;
     display: flex;
+    padding: 10px;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
 }
+
 
 .cont-box .img-cont{
     width: 30%;
@@ -515,6 +520,57 @@ Start listing-section-wrapper Coding
 .cont-box .details-cont{
     width: 70%;
     padding-left: 2%;
+    line-height: 27px;
+}
+
+.raiting{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.raiting span{
+    background: #63E89E;
+    color: #ffffff;
+    padding:5px;
+    border-radius: 5px;
+}
+.raiting p{
+    margin-left: 5px;
+    background: #00ACEE;
+    color: #ffffff;
+    letter-spacing: 4px;
+    padding:9px 5px 0px 5px;
+    border-radius: 5px;
+    border-right: 1px solid #fff;
+}
+.distance{
+    width: 100%;
+    text-align: right;
+    margin-right: 2%;
+    color: #cccccc;
+}
+
+.category-name-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding:15px 5px 15px 5px;
+    width: 100%;
+}
+
+.category-name-list:hover{
+      border: 1px solid #ccc;
+}
+
+
+.category-name-icon{
+    width: 20%;
+    text-align: center;
+    color:#00ACEE;
+}
+
+.category-name{
+    width: 80%;
+
 }
 
 /*-------------------------------------------------------------
