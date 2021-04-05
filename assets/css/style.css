@@ -332,7 +332,7 @@ Start directory-category Coding
 --------------------------------------------------------------*/
 
 .directory-category-wrapper{
-    background: #dddddd;
+    background: #eeeeee;
 }
 
 .directory-category-main{
@@ -575,4 +575,81 @@ Start listing-section-wrapper Coding
 
 /*-------------------------------------------------------------
 End listing-section-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start Contactus-wrapper Coding    
+--------------------------------------------------------------*/
+
+.contat-us-wrapper {
+    background: #eeeeee;
+}
+
+.contat-us-wrapper .contat-us-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contat-us-wrapper .contat-us-main .contact-us-left {
+    width: 50%;
+}
+
+
+.contat-us-wrapper .contat-us-main .contact-us-right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+
+.contat-us-wrapper .contat-us-main .contact-us-form textarea,
+.contat-us-wrapper .contat-us-main .contact-us-form input {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.contact-us-form input {
+    height: 45px;
+    padding-left: 10px;
+}
+
+.contact-us-form textarea {
+    padding: 10px;
+}
+/*-------------------------------------------------------------
+End Contactus-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------
+Start About-us Coding    
+--------------------------------------------------------------*/
+
+.aboutus-wrapper{
+background-color: #eeeeee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutus-img-1{
+    width:100%;
+}
+
+.aboutus-img-2{
+    width:100%;
+    margin-left: 40px;
+}
+
+.aboutus-wrapper p{
+     margin-left: 40px;
+}
+
+.aboutus-wrapper p, .aboutus-wrapper-services p{
+    text-align: justify;
+}
+
+/*-------------------------------------------------------------
+End About-us Coding    
 --------------------------------------------------------------*/
