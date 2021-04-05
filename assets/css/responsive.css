@@ -178,12 +178,6 @@ Start Contact-us-wrapper Coding
     padding-left: 0px;
 }
 
-    .contact-us-form input,
-    .contact-us-form textarea {
-        width: 100%;
-
-    }
-
     .contact-us-form button {
         width: 50%;
     }
@@ -202,5 +196,22 @@ Start About-us Coding
 /*-------------------------------------------------------------
 End About-us Coding    
 --------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start login/Register Coding    
+--------------------------------------------------------------*/
+.login-form-wrapper{
+    background: #eeeeee;
+}
+
+.login-form{
+    width: 100%;
+       padding: 0px;
+       background: none;
+}
+
+/*-------------------------------------------------------------
+End login/Register Coding    
+--------------------------------------------------------------
 
 }

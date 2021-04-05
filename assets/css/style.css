@@ -1,4 +1,4 @@
-/*--------------------------------------------------------------
+--------------------------------------------------------------
 Start Header Coding
 --------------------------------------------------------------*/
 .header-wrapper .container {
@@ -611,23 +611,6 @@ Start Contactus-wrapper Coding
 }
 
 
-.contat-us-wrapper .contat-us-main .contact-us-form textarea,
-.contat-us-wrapper .contat-us-main .contact-us-form input {
-    width: 100%;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    margin-bottom: 30px;
-}
-
-.contact-us-form input {
-    height: 45px;
-    padding-left: 10px;
-}
-
-.contact-us-form textarea {
-    padding: 10px;
-}
 
 /*-------------------------------------------------------------
 End Contactus-wrapper Coding    
@@ -665,3 +648,27 @@ Start About-us Coding
 /*-------------------------------------------------------------
 End About-us Coding    
 --------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start login/Register Coding    
+--------------------------------------------------------------*/
+.login-form-wrapper{
+  text-align: center;
+  line-height: 20px;
+}
+
+.login-form{
+    border-radius: 5px;
+    padding: 20px;
+    background: #eeeeee;
+    width: 30%;
+    margin:0px auto;
+}
+
+.login-form .col{
+    margin:0px auto;
+}
+
+/*-------------------------------------------------------------
+End login/Register Coding    
+--------------------------------------------------------------
