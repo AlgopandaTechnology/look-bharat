@@ -587,6 +587,10 @@ Start listing-section-wrapper Coding
 End listing-section-wrapper Coding    
 --------------------------------------------------------------*/
 
+
+/*###############
+ Contact page
+###############*/
 /*-------------------------------------------------------------
 Start Contactus-wrapper Coding    
 --------------------------------------------------------------*/
@@ -616,7 +620,9 @@ Start Contactus-wrapper Coding
 End Contactus-wrapper Coding    
 --------------------------------------------------------------*/
 
-
+/*###############
+ About us page
+###############*/
 /*-------------------------------------------------------------
 Start About-us Coding    
 --------------------------------------------------------------*/
@@ -649,6 +655,10 @@ Start About-us Coding
 End About-us Coding    
 --------------------------------------------------------------*/
 
+
+/*###############
+ Login/signup page
+###############*/
 /*-------------------------------------------------------------
 Start login/Register Coding    
 --------------------------------------------------------------*/
@@ -671,4 +681,90 @@ Start login/Register Coding
 
 /*-------------------------------------------------------------
 End login/Register Coding    
---------------------------------------------------------------
+--------------------------------------------------------------*/
+
+
+/*###############
+ Detail page
+###############*/
+
+/*-------------------------------------------------------------
+Start detail-wrapper Coding    
+--------------------------------------------------------------*/
+
+.detail-wrapper{
+    background-image: url('hotel.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.detail-main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.detail-main .details-cont{
+    line-height: 30px;
+}
+
+.details-options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+.details-options-box{
+    width:16.66%;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------
+End detail-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start detail-page-details-wrapper Coding    
+--------------------------------------------------------------*/
+.detail-page-details-wrapper{
+
+}
+
+.detail-page-details-wrapper .main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.detail-page-details-wrapper .main-container .left-part{
+    width: 40%;
+    padding:20px;
+    background: #dddddd;
+    line-height: 40px;
+}
+
+.detail-page-details-wrapper .main-container .right-part{
+    width: 60%;
+    padding:20px;
+    background: #eeeeee;
+}
+
+.options-box{
+    width: 32%;
+    background: #fff;
+    padding:10px;
+    margin-left: 1%;
+    font-size: 14px;
+
+}
+
+.options-box h3{
+    font-size: 18px;
+}
+
+/*-------------------------------------------------------------
+End detail-page-details-wrapperr Coding    
+--------------------------------------------------------------*/

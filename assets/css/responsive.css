@@ -47,9 +47,9 @@ Start Header Coding
         transition: 0.8s;
     }
 
-    .list-your-business button{
-    width: 100%;
-}
+    .list-your-business button {
+        width: 100%;
+    }
 
     /*--------------------------------------------------------------
 End Header Coding    
@@ -59,16 +59,17 @@ End Header Coding
     /*--------------------------------------------------------------
 Start Footer Coding
 --------------------------------------------------------------*/
-.footer-box{
-    width: 100%;
-    line-height: 35px;
-    padding: 0px;
-}
+    .footer-box {
+        width: 100%;
+        line-height: 35px;
+        padding: 0px;
+    }
 
 
-.scrollToTop{
-    right:20px;
-}
+    .scrollToTop {
+        right: 20px;
+    }
+
     /*--------------------------------------------------------------
 End Footer Coding    
 --------------------------------------------------------------*/
@@ -89,129 +90,136 @@ Start discover Coding
     }
 
 
-.discover-content h1{
-    font-size: 21px;
-}
+    .discover-content h1 {
+        font-size: 21px;
+    }
 
 
     /*--------------------------------------------------------------
 End discover Coding    
 --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start popular-category Coding    
 --------------------------------------------------------------*/
 
-.popular-category-items-box{
-    width: 100%;
-    margin:0px 0px 12px 0px;
-}
+    .popular-category-items-box {
+        width: 100%;
+        margin: 0px 0px 12px 0px;
+    }
 
-.browse-all-categories{
-    width: 70%;
-}
+    .browse-all-categories {
+        width: 70%;
+    }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End popular-category Coding    
 --------------------------------------------------------------*/
 
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start directory-category Coding    
 --------------------------------------------------------------*/
 
-.directory-tab a{
-    line-height: 50px;
-}
+    .directory-tab a {
+        line-height: 50px;
+    }
 
-.directory-box{
-    width: 100%;
-    margin:0px 0px 30px 0px;
-}
-.directory-box:nth-child(1){
-    margin-left:0px;
-}
+    .directory-box {
+        width: 100%;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .directory-box:nth-child(1) {
+        margin-left: 0px;
+    }
 
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End directory-category Coding    
 --------------------------------------------------------------*/
 
-/*###############
+    /*###############
  Category page
 ###############*/
 
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 Start category-header-wrapper Coding    
 --------------------------------------------------------------*/
-.category-search{
-    width: 100%;
-}
+    .category-search {
+        width: 100%;
+    }
 
-.category-filter{
-    width: 100%;
+    .category-filter {
+        width: 100%;
 
-}
+    }
 
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 End category-header-wrapper Coding    
 --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 Start Contact-us-wrapper Coding
 --------------------------------------------------------------*/
 
-.contat-us-wrapper .contat-us-main .contact-us-left{
-    width: 100%;
-    margin-bottom: 30px;
-}
+    .contat-us-wrapper .contat-us-main .contact-us-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
-.contat-us-wrapper .contat-us-main .contact-us-left .contact-us-map iframe{
-    height:300px;
-}
+    .contat-us-wrapper .contat-us-main .contact-us-left .contact-us-map iframe {
+        height: 300px;
+    }
 
-.contat-us-wrapper .contat-us-main .contact-us-right{
-    width: 100%;
-    padding-left: 0px;
-}
+    .contat-us-wrapper .contat-us-main .contact-us-right {
+        width: 100%;
+        padding-left: 0px;
+    }
 
     .contact-us-form button {
         width: 50%;
     }
 
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 End Contact-us-wrapper Coding
 --------------------------------------------------------------*/
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 Start About-us Coding    
 --------------------------------------------------------------*/
-.aboutus-wrapper p,.aboutus-img-2{
-    margin: 0;
-}
+    .aboutus-wrapper p,
+    .aboutus-img-2 {
+        margin: 0;
+    }
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 End About-us Coding    
 --------------------------------------------------------------*/
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 Start login/Register Coding    
 --------------------------------------------------------------*/
-.login-form-wrapper{
-    background: #eeeeee;
-}
+    .login-form-wrapper {
+        background: #eeeeee;
+    }
 
-.login-form{
-    width: 100%;
-       padding: 0px;
-       background: none;
-}
+    .login-form {
+        width: 100%;
+        padding: 0px;
+        background: none;
+    }
 
-/*-------------------------------------------------------------
+    /*-------------------------------------------------------------
 End login/Register Coding    
---------------------------------------------------------------
+--------------------------------------------------------------*/
+
+.details-options-box{
+    width:50%;
+    text-align: center;
+}
 
 }
