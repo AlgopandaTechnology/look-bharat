@@ -200,6 +200,11 @@ Start About-us Coding
 End About-us Coding    
 --------------------------------------------------------------*/
 
+    /*###############
+ Login page
+###############*/
+
+
     /*-------------------------------------------------------------
 Start login/Register Coding    
 --------------------------------------------------------------*/
@@ -217,9 +222,147 @@ Start login/Register Coding
 End login/Register Coding    
 --------------------------------------------------------------*/
 
+    /*###############
+ Category page
+###############*/
+
+/*-------------------------------------------------------------
+Start category-header-wrapper Coding    
+--------------------------------------------------------------*/
+.category-search {
+    width: 100%;
+}
+
+.category-filter {
+    width: 100%;
+    text-align: center;
+}
+
+.category-filter a {
+    margin-left: 0px;
+}
+
+/*-------------------------------------------------------------
+End category-header-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start category-subheader-wrapper Coding    
+--------------------------------------------------------------*/
+.category-subheader-section:nth-child(1) {
+    width: 25%;
+}
+
+.category-subheader-section:nth-child(2) {
+    width: 25%;
+}
+
+.category-subheader-section:nth-child(3) {
+    width: 50%;
+}
+
+.category-subheader-section:nth-child(4) {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left:none;
+    border-right: none;
+    width: 100%;
+}
+
+.category-subheader-section:nth-child(5) {
+    width: 100%;
+}
+
+/*-------------------------------------------------------------
+End category-subheader-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+Start listing-section-wrapper Coding    
+--------------------------------------------------------------*/
+.listing-section-left {
+    width:100%;
+}
+
+.listing-section-right {
+    margin-left:0px;
+    width: 100%;
+    padding-left: 0px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.cont-box .img-cont {
+    width: 100%;
+}
+
+.cont-box .details-cont {
+    width: 70%;
+    padding-left: 2%;
+    line-height: 27px;
+    color: #000000;
+}
+
+/*-------------------------------------------------------------
+End listing-section-wrapper Coding    
+--------------------------------------------------------------*/
+
+    /*###############
+ Detail page
+###############*/
+    /*-------------------------------------------------------------
+Start detail-wrapper Coding    
+--------------------------------------------------------------*/
 .details-options-box{
     width:50%;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+    /*-------------------------------------------------------------
+End detail-wrapper Coding    
+--------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------
+Start detail-page-details-wrapper Coding    
+--------------------------------------------------------------*/
+
+.details-cont{
+    color: #ffffff;
+
+}
+.detail-page-details-wrapper .main-container .left-part,.detail-page-details-wrapper .main-container .right-part{
+    width: 100%;
+}
+
+.options-box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/*-------------------------------------------------------------
+End detail-page-details-wrapper Coding    
+--------------------------------------------------------------*/
+
+/*###############
+ Listing page
+###############*/
+
+/*-------------------------------------------------------------
+Start listing-wrapper Coding    
+--------------------------------------------------------------*/
+
+.listing-wrapper .col:nth-child(2){
+    margin:0;
+}
+
+.listing-wrapper button{
+    width: 100%;
+}
+
+/*-------------------------------------------------------------
+End listing-wrapper Coding    
+--------------------------------------------------------------*/
 
 }

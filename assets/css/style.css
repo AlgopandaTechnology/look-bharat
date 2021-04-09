@@ -293,6 +293,8 @@ Start popular-category Coding
     box-shadow: 0 5px 10px 0 rgb(144 146 136 / 20%);
 }
 
+
+
 .popular-category-items-box p {
     display: flex;
     align-items: center;
@@ -426,7 +428,6 @@ Start category-header-wrapper Coding
 .category-search input {
     outline: none;
     border: none;
-    padding-left: 10px;
     color: #00ACEE;
 }
 
@@ -509,6 +510,23 @@ Start listing-section-wrapper Coding
     padding-left: 10px;
 
 }
+
+.listing-section-right a{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing-section-left a{
+        display: flex;
+    flex-wrap: wrap;
+}
+
+.listing-section-right a:hover{
+    color: #000000;
+}
+
 
 .cont-box {
     width: 100%;
@@ -767,4 +785,33 @@ Start detail-page-details-wrapper Coding
 
 /*-------------------------------------------------------------
 End detail-page-details-wrapperr Coding    
+--------------------------------------------------------------*/
+
+/*###############
+ Listing page
+###############*/
+
+/*-------------------------------------------------------------
+Start listing-wrapper Coding    
+--------------------------------------------------------------*/
+
+.listing-main{
+    display: flex;
+    flex-wrap: wrap;
+    background: #eee;
+    padding: 25px;
+    line-height: 30px;
+}
+
+.listing-wrapper button{
+    width: 50%;
+}
+
+
+.listing-wrapper .col:nth-child(2){
+    margin-left:2%;
+}
+
+/*-------------------------------------------------------------
+End listing-wrapper Coding    
 --------------------------------------------------------------*/
