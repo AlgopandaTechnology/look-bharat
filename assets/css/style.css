@@ -815,3 +815,81 @@ Start listing-wrapper Coding
 /*-------------------------------------------------------------
 End listing-wrapper Coding    
 --------------------------------------------------------------*/
+
+/*###############
+ Profile page
+###############*/
+
+/*-------------------------------------------------------------
+Start profile-wrapper Coding    
+--------------------------------------------------------------*/
+
+.tabcontent {
+  display: none;
+}
+
+.profile-main,.profile-tab-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-tab-container{
+    width: 100%;
+}
+
+.profile-main .active{
+    color: #ffffff;
+}
+
+
+.profile-tab{
+    width:33.33%;
+    background:#63E89E;
+    text-align: center;
+    padding:10px;
+}
+.profile-tab:nth-child(2){
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+
+.your-profile-details{
+    display: flex;
+    flex-wrap: wrap;
+    padding:25px;
+    width:100%;
+    margin: 0px auto;
+    background: #eeeeee;
+}
+
+.profile-pic{
+    width: 50%;
+}
+
+.profile-name{
+    width: 48%;
+    line-height: 45px;
+    margin-left:2%;
+}
+
+.profile-wrapper button{
+    width: 50%;
+}
+
+
+.profile-wrapper .col:nth-child(1){
+    margin-right:2%;
+}
+
+.profile-wrapper .listing-main{
+    background: #ffffff;
+}
+
+.profile-wrapper .edit-business-main{
+    background: #eeeeee;
+    padding:25px;
+}
+
+/*-------------------------------------------------------------
+End profile-wrapper Coding    
+--------------------------------------------------------------*/

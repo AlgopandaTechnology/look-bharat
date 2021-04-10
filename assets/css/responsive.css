@@ -365,4 +365,32 @@ Start listing-wrapper Coding
 End listing-wrapper Coding    
 --------------------------------------------------------------*/
 
+/*###############
+ Profile page
+###############*/
+
+/*-------------------------------------------------------------
+Start profile-wrapper Coding    
+--------------------------------------------------------------*/
+.profile-pic{
+    width: 100%;
+}
+
+.profile-name{
+    width: 108%;
+    margin-left:0px;
+}
+
+.profile-wrapper button{
+    width: 100%;
+}
+.profile-wrapper .col:nth-child(1){
+    margin-right:0px;
+}
+
+/*-------------------------------------------------------------
+End profile-wrapper Coding    
+--------------------------------------------------------------*/
+
+
 }

@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>LookBharat | Listing</title>
+    <title>LookBharat | Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=icon type="image/ico" href="assets/images/favicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/globle.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
 </head>
 
 <body>
@@ -49,40 +50,96 @@
         </div>
     </div>
     <!--End Header-->
-    <div class="listing-wrapper">
-        <form class="" action="#" method="post">
-            <div class="container">
-                <div class="title">
-                    <h1>List your Business</h1>
+    <div class="profile-wrapper">
+        <div class="container">
+            <div class="title">
+                <h1>Your Profile</h1>
+            </div>
+            <div class="profile-main">
+                <div class="profile-tab-container">
+                    <div class="profile-tab" onclick="openName(event, 'your-profile-details')">
+                        Your Profile
+                    </div>
+                    <div class="profile-tab" onclick="openName(event, 'view-business-details')">
+                        View Business
+                    </div>
+                    <div class="profile-tab" onclick="openName(event, 'edit-business')">
+                        Edit Business
+                    </div>
                 </div>
-                <div class="subtitle">Use India's leading local search engine to list your business for free</div>
+            </div>
+            <div class="your-profile-details tabcontent" id="your-profile-details">
+                <div class="profile-pic">
+                    <img src="assets/images/camp.png" width="25%">
+                </div>
+                <div class="profile-name">
+                    <h1>Look Bharat</h1>
+                    <h2>+91 9254698721, +91 8945613874</h2>
+                    <h3>info@lookbharat.com</h3>
+                </div>
+            </div>
+            <div class="view-business-details tabcontent" id="view-business-details">
                 <div class="listing-main">
-                    <h2>Enter Your details</h2>
+                    <h2>Your Business</h2>
                     <br>
                     <div class="row">
                         <div class="col">
                             <label for="Company name">Company Name</label>
-                            <input type="text" name="" value="" placeholder="Company Name*" required="required">
+                            <input type="text" name="" value="Look Bharat" disabled="disabled" placeholder="Company Name*" required="required">
                         </div>
                         <div class="col">
                             <label for="city">City</label>
-                            <input type="text" name="" value="" placeholder="City Name" required="required">
+                            <input type="text" name="" value="Dehri On Sone" disabled="disabled" placeholder="City Name" required="required">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <label for="name">Name</label>
-                            <input type="text" name="" value="" placeholder="Your Name" required="required">
+                            <input type="text" name="" value="shree ram ji" disabled="disabled" placeholder="Your Name" required="required">
                         </div>
                         <div class="col">
-                          <label for="Mobile-number">Mobile</label>
-                            <input type="number" name="" value="" placeholder="Mobile" required="required">
+                            <label for="Mobile-number">Mobile</label>
+                            <input type="text" name="" value="+91 8546987459" disabled="disabled" placeholder="Mobile" required="required">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <label for="mail">Email</label>
-                            <input type="email" name="" value="" placeholder="Email" required="required">
+                            <input type="email" name="" value="info@lookbhat.com" disabled="disabled" placeholder="Email" required="required">
+                        </div>
+                        <div class="col">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="edit-business tabcontent" id="edit-business">
+                <div class="edit-business-main">
+                    <h2>Edit Your Business</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <label for="Company name">Company Name</label>
+                            <input type="text" name="" value="Look Bharat" placeholder="Company Name*" required="required">
+                        </div>
+                        <div class="col">
+                            <label for="city">City</label>
+                            <input type="text" name="" value="Dehri on sone" placeholder="City Name" required="required">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="name">Name</label>
+                            <input type="text" name="" value="shree ram ji" placeholder="Your Name" required="required">
+                        </div>
+                        <div class="col">
+                            <label for="Mobile-number">Mobile</label>
+                            <input type="number" name="" value="" placeholder="+91 8546987459" required="required">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="mail">Email</label>
+                            <input type="email" name="" value="info@lookbhat.com" placeholder="Email" required="required">
                         </div>
                         <div class="col">
                             <label for="companyImage">Upload Image</label>
@@ -96,11 +153,12 @@
                         </div>
                     </div>
                 </div>
-        </form>
+            </div>
+        </div>
     </div>
     <!-- ################################
             Footer
-#####################################-->
+##################################-->
     <div class="footer-wrapper">
         <div class="container">
             <div class="footer">
@@ -149,6 +207,7 @@
             </div>
         </div>
     </div>
+
     <script src="assets/js/script.js"></script>
 </body>
 
