@@ -377,8 +377,7 @@ Start profile-wrapper Coding
 }
 
 .profile-name{
-    width: 108%;
-    margin-left:0px;
+    width: 100%;
 }
 
 .profile-wrapper button{

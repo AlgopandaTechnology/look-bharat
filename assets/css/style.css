@@ -867,9 +867,8 @@ Start profile-wrapper Coding
 }
 
 .profile-name{
-    width: 48%;
+    width:50%;
     line-height: 45px;
-    margin-left:2%;
 }
 
 .profile-wrapper button{
